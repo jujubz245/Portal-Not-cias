@@ -57,18 +57,7 @@ portal-noticias/
 - Newsletter salva (`pulsoNewsletter`)
 - Barra de progresso de leitura, botão voltar ao topo, FAQ e menu móvel sem framework
 
-## Publicação no GitHub
 
-```bash
-git init
-git add .
-git commit -m "Projeto Pulso News"
-git branch -M main
-git remote add origin https://github.com/USUARIO/pulso-news.git
-git push -u origin main
-```
-
-Para publicar como site: no repositório, abra **Settings → Pages**, escolha a branch `main` e a pasta `/ (root)`.
 
 ## Créditos
 
