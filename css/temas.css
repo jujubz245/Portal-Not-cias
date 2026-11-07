@@ -1,0 +1,67 @@
+:root {
+    --cor-fundo: #f4f6f9;
+    --cor-superficie: #ffffff;
+    --cor-superficie-alt: #eaeef3;
+    --cor-texto: #0f172a;
+    --cor-texto-suave: #4b5768;
+    --cor-borda: #dde3eb;
+    --cor-primaria: #067a52;
+    --cor-primaria-hover: #055e40;
+    --cor-primaria-suave: #dff5ec;
+    --cor-texto-sobre-primaria: #ffffff;
+    --cor-destaque: #e8461f;
+    --cor-cabecalho: #0b1220;
+    --cor-cabecalho-texto: #e7ecf3;
+    --cor-cabecalho-suave: #94a3b8;
+    --cor-rodape: #0b1220;
+    --cor-erro: #c62828;
+    --cor-sucesso: #067a52;
+    --sombra-card: 0 1px 2px rgba(15, 23, 42, 0.06), 0 4px 16px rgba(15, 23, 42, 0.06);
+    --sombra-card-hover: 0 8px 28px rgba(15, 23, 42, 0.14);
+    --cor-politica: #1d4ed8;
+    --cor-tecnologia: #7c3aed;
+    --cor-economia: #047857;
+    --cor-esportes: #c2410c;
+    --cor-entretenimento: #be123c;
+    color-scheme: light;
+}
+
+[data-tema="escuro"] {
+    --cor-fundo: #0a0e15;
+    --cor-superficie: #131a25;
+    --cor-superficie-alt: #1b2432;
+    --cor-texto: #e6ebf2;
+    --cor-texto-suave: #9aa6b8;
+    --cor-borda: #263142;
+    --cor-primaria: #34d399;
+    --cor-primaria-hover: #6ee7b7;
+    --cor-primaria-suave: #0f2e24;
+    --cor-texto-sobre-primaria: #052118;
+    --cor-destaque: #ff7a59;
+    --cor-cabecalho: #05080d;
+    --cor-cabecalho-texto: #e6ebf2;
+    --cor-cabecalho-suave: #8b97a8;
+    --cor-rodape: #05080d;
+    --cor-erro: #ff8a80;
+    --cor-sucesso: #34d399;
+    --sombra-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.25);
+    --sombra-card-hover: 0 10px 30px rgba(0, 0, 0, 0.55);
+    --cor-politica: #93b4ff;
+    --cor-tecnologia: #c4a8ff;
+    --cor-economia: #5ee0b0;
+    --cor-esportes: #ffad7a;
+    --cor-entretenimento: #ff9db4;
+    color-scheme: dark;
+}
+
+[data-tema] body {
+    --bs-body-bg: var(--cor-fundo);
+    --bs-body-color: var(--cor-texto);
+    --bs-border-color: var(--cor-borda);
+    --bs-secondary-color: var(--cor-texto-suave);
+    --bs-link-color-rgb: 6, 122, 82;
+}
+
+[data-tema="escuro"] body {
+    --bs-link-color-rgb: 52, 211, 153;
+}
