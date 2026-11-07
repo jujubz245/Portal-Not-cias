@@ -42,7 +42,7 @@ portal-noticias/
 ├── img/                ilustrações das notícias, logo e galeria
 ├── video/              boletim-pulso.mp4
 ├── audio/              pulso-cast.mp3
-└── doc/                documentação e material de defesa (.docx)
+
 ```
 
 ## Funcionalidades em JavaScript
@@ -74,4 +74,4 @@ Para publicar como site: no repositório, abra **Settings → Pages**, escolha a
 
 - [Bootstrap 5](https://getbootstrap.com/) — licença MIT
 - Fontes [Poppins](https://fonts.google.com/specimen/Poppins) e [Inter](https://fonts.google.com/specimen/Inter) — SIL Open Font License
-- Ilustrações, vídeo e áudio criados pela equipe para o projeto (áudio com voz sintética eSpeak NG)
+- Ilustrações, vídeo e áudio criados pela equipe para o projeto (feitos pelo Notebook.google)
